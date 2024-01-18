@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Animated Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>Your Name</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section class="projects">
+        <h2>Projects</h2>
+
+        <div class="project" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+            <img src="https://picsum.photos/400/300?random=1" alt="Project 1">
+            <div class="project-info">
+                <h3>Project 1</h3>
+                <p>Project description goes here.</p>
+            </div>
+        </div>
+
+        <div class="project" onmouseover="hoverProject(this)" onmouseout="unhoverProject(this)">
+            <img src="https://picsum.photos/400/300?random=2" alt="Project 2">
+            <div class="project-info">
+                <h3>Project 2</h3>
+                <p>Project description goes here.</p>
+            </div>
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Your Animated Portfolio</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
